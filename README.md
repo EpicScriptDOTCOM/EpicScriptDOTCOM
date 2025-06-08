@@ -1,4 +1,5 @@
 🎨 I'm a creative Web & Graphic Designer 🖥️ skilled in HTML, CSS, JS, Photoshop and Illustrator —🚀 crafting sleek user experiences.
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,6 +11,204 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
+  <body style=" .home-area {
+	margin-top: 24px;
+}
+
+.card {
+	border: 0;
+	background-color: var(--white);
+	box-shadow: 0 1px 2px 0 rgba(26, 31, 44, 0.25);
+	border-radius: 16px;
+	height: 100%;
+}
+
+.card-body {
+	padding: 24px;
+}
+
+.profile-card .image {
+	background-color: var(--background);
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.profile-card .image img {
+	margin-top: 0px;
+}
+
+.profile-card .text {
+	margin-top: 24px;
+}
+
+.profile-card .text p {
+	margin-top: 8px;
+	color: var(--light-black);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.5em;
+}
+
+.profile-card .text p span {
+	color: var(--black);
+	font-weight: 600;
+}
+
+.common-button-groups {
+	margin-top: 24px;
+}
+
+.common-button-groups .btn {
+	background-color: var(--primary);
+	border-radius: 8px;
+	padding: 16px 24px;
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--white);
+	line-height: 1.5em;
+	margin-right: 8px;
+}
+
+.common-button-groups .btn:hover {
+	background-color: #2563EB;
+}
+
+.common-button-groups .btn .icon {
+	margin-right: 8px;
+}
+
+.common-button-groups .btn.btn-call:focus {
+	color: var(--white);
+	border-color: transparent;
+}
+
+.common-button-groups .btn.btn-copy {
+	border: 1px solid var(--border);
+	background-color: transparent;
+	color: var(--black);
+	position: relative;
+}
+
+.common-button-groups .btn.btn-copy .icon {
+	stroke: #1A1F2C;
+	transition: var(--transision);
+}
+
+.common-button-groups .btn.btn-copy::before {
+	position: absolute;
+	content: "Copied to clipboard";
+	background-color: var(--black);
+	font-size: 12px;
+	font-weight: 600;
+	color: var(--white);
+	border-radius: 5px;
+	padding: 4px 12px;
+	line-height: 14px;
+	white-space: nowrap;
+	top: -28px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+
+.common-button-groups .btn.btn-copy.active::before {
+	display: block !important;
+}
+
+.common-button-groups .btn.btn-copy:hover {
+	background-color: var(--background);
+}
+
+.social-media-icon {
+	margin-top: 30px;
+}
+
+.social-media-icon ul li {
+	display: inline-block;
+}
+
+.social-media-icon ul li {
+	margin-right: 4px;
+}
+
+.social-media-icon ul li a {
+	color: #384559;
+	font-size: 20px;
+	width: 40px;
+	height: 40px;
+	border-radius: 8px;
+	border: 1px solid var(--border);
+	text-align: center;
+	line-height: 40px;
+}
+
+.social-media-icon ul li a:hover {
+	color: var(--primary);
+}
+
+.card-projects .project-item .image {
+	background-color: var(--background);
+	padding: 24px;
+	padding-bottom: 0;
+	border-radius: 8px;
+	overflow: hidden;
+	position: relative;
+}
+
+.card-projects .project-item .image img {
+	border-radius: 8px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.card-projects .project-item .image .info {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+	width: 100%;
+}
+
+.card-projects .project-item .image .info .category {
+	font-size: 12px;
+	font-weight: 500;
+	color: var(--primary);
+	background-color: var(--white);
+	border-radius: 4px;
+	padding: 4px 8px;
+	margin: 16px;
+	line-height: 1.333em;
+}
+
+.card-projects .project-item .image .full-image-preview {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	z-index: 9;
+	width: 40px;
+	height: 40px;
+	background-color: var(--white);
+	border-radius: 50%;
+	text-align: center;
+	line-height: 38px;
+	color: var(--primary);
+	filter: drop-shadow(0 12px 12px rgba(26, 31, 44, 0.25));
+	margin-top: -10px;
+	transition: var(--transision);
+	visibility: hidden;
+	opacity: 0;
+}
+
+.card-projects .project-item .image .full-image-preview .icon {
+	width: 22px;
+	height: 22px;
+}
+
+.card-projects .project-item .image:hover .full-image-preview {
+	visibility: visible;
+	opacity: 1;
+} ">
         <div class="container">
           <div class="row g-4">
             <div class="col-xl-4">
@@ -62,4 +261,5 @@
                 </div>
               </div>
             </div>
+  </body>
 </html>
